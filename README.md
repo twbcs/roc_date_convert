@@ -21,10 +21,15 @@ And then execute:
   Date roc_date "105年12月8日"
 
   Time roc_date "105年12月8日"
+
        roc_time "105年12月8日 11:55"
+
   ex:
+
   a = Time.new
+
   a.roc_date => "105年12月8日"
+
   a.roc_date("民國") => "民國105年12月8日"
 
 ## Development
